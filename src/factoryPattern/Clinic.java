@@ -35,10 +35,11 @@ public class Clinic {
                     ((Cat) pet).setNoOfLives(9);
                     break;
                 case 3:
-                    System.err.print("Exiting...");
+                    System.out.print("Exiting...");
                     System.exit(0);
                 default:
-                    System.out.println("Invalid choice. Please choose a valid option [1] [2] [3].");
+                    System.err.println("Invalid choice. Please choose a valid option [1] [2] [3]");
+
                     continue;
             }
 
